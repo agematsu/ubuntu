@@ -1,5 +1,2 @@
 # インストールについて
 
-aiueo
-aiueo
-aiueo
