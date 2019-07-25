@@ -1,7 +1,7 @@
 # Ubuntuのユーザーについて
 Ubuntuのユーザーの設定について見ていく。
 
-## rootゆほ
+## rootユーザー
 
 ## Single sign onについて
 
