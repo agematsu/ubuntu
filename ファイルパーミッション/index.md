@@ -20,7 +20,7 @@ Linuxにおけるオーナーシップは以下の３タイブに分けられる
 r-
 #### Read and write
 rw
-### フォルダの場合
+### フォルダーの場合
 #### List files only
 r--
 #### Access files
