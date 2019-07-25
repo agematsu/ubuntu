@@ -22,11 +22,13 @@ r-
 #### Read and write
 rw
 ### フォルダーの場合
+#### None
+
 #### List files only
 r--
 #### Access files
 r-x
-#### Creat and delete files
+#### Create and delete files
 rwx
 -->
 
