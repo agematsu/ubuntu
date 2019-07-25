@@ -11,12 +11,14 @@ Linuxにおけるオーナーシップは以下の３タイブに分けられる
 ## ファイルパーミッション
 
 ### Read
-### 
+### Write
+### Execute
 
 <!--
 ## ファイルマネージャーでの取扱い 
 ファイルマネージャーでの取扱いはファイルかフォルダーかによって変わってくる。
 ### ファイルの場合
+ファイルにおいて、プログラムとして実行可能かはチェックポックスで一括して設定するので、以下では省略する。
 #### Read-only
 r-
 #### Read and write
@@ -35,5 +37,6 @@ rwx
 -->
 
 ## デフォルトでの設定
-
+## 参考文献
+- [File Permissions in Linux/Unix with Example](https://www.guru99.com/file-permissions.html)
 
