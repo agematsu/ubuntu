@@ -21,15 +21,17 @@ Linuxにおけるオーナーシップは以下の３タイブに分けられる
 r-
 #### Read and write
 rw
-### フォルダーの場合
 #### None
-
+--
+### フォルダーの場合
 #### List files only
 r--
 #### Access files
 r-x
 #### Create and delete files
 rwx
+#### None
+---
 -->
 
 ## デフォルトでの設定
