@@ -32,6 +32,10 @@ Create and delete files=rwx
 None=---
 
 
+
+
+
+
 ## デフォルトでの設定
 ## 参考文献
 [File Permissions in Linux/Unix with Example](https://www.guru99.com/file-permissions.html)
