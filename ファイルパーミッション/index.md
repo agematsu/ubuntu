@@ -21,14 +21,14 @@ Writeパーミッションは、ファイルのコンテンツを変える権利
 
 ### ファイルの場合
 ファイルにおいて、プログラムとして実行可能かはチェックポックスで一括して設定するので、以下では省略する。
-Read-only=r-
-Read and write=rw
+Read-only=r-  
+Read and write=rw  
 None=--
 
 ### フォルダーの場合
-List files only=r--
-Access files=r-x
-Create and delete files=rwx
+List files only=r--  
+Access files=r-x  
+Create and delete files=rwx  
 None=---
 
 
