@@ -15,7 +15,7 @@ Readパーミッションはファイルを開いたり、読んだりする権�
 Writeパーミッションは、ファイルのコンテンツを変える権利を与えます。
 ### Execute
 
-<!--
+[](
 ## ファイルマネージャーでの取扱い 
 ファイルマネージャーでの取扱いはファイルかフォルダーかによって変わってくる。
 
@@ -30,13 +30,14 @@ List files only=r--
 Access files=r-x  
 Create and delete files=rwx  
 None=---
--->
+)
 
 ## デフォルトでの設定
 デフォルトでは  
-File 666-44=622(rw- -w- -w-)  
-Directory 777-44=733(rwx -wx -wx)
+File 666-44=622(rw--w--w-)  
+Directory 777-44=733(rwx -wx -wx)  
 のはずですが、デフォルトの値がファイルの作り方によってバラける。
+File 666-22=644(rw-r--r--)
 
 ## 参考文献
 [File Permissions in Linux/Unix with Example](https://www.guru99.com/file-permissions.html)  
