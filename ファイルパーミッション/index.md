@@ -35,8 +35,7 @@ None=---
 ## デフォルトでの設定
 デフォルトでは  umaskの値は044ですが、ファイルの属性はバラバラです。  
 File 044=rw--w--w-  
-File 022=rw-r--r--
-Directory  
+File 022=rw-r--r--  Directory  
 File 002=rw-rw-r--
 
 
