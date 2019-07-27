@@ -36,6 +36,7 @@ None=---
 デフォルトでは  umaskの値は044ですが、ファイルの属性はバラバラです。  
 File 044=rw--w--w-  
 File 022=rw-r--r--
+File 002=rw-rw-r--
 
 
 
