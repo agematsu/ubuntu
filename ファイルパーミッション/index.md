@@ -33,11 +33,11 @@ None=---
 -->
 
 ## デフォルトでの設定
-デフォルトでは  
-File 666-44=622(rw--w--w-)  
-Directory 777-44=733(rwx -wx -wx)  
-のはずですが、デフォルトの値がファイルの作り方によってバラける。
-File 666-22=644(rw-r--r--)
+デフォルトでは  umaskの値は044ですが、ファイルの属性はバラバラです。
+File 044=rw--w--w-  
+File 022=rw-r--r--
+
+
 
 ## 参考文献
 [File Permissions in Linux/Unix with Example](https://www.guru99.com/file-permissions.html)  
