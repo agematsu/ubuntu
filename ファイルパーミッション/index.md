@@ -37,6 +37,6 @@ None=---
 File 666-44=622(rw- -w- -w-)
 Directory 777-44=733(rwx -wx -wx)
 ## 参考文献
-[File Permissions in Linux/Unix with Example](https://www.guru99.com/file-permissions.html)
+[File Permissions in Linux/Unix with Example](https://www.guru99.com/file-permissions.html)  
 [Set the default permissions for newly created files](https://geek-university.com/linux/set-the-default-permissions-for-newly-created-files/)
 
