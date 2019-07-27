@@ -34,9 +34,9 @@ None=---
 
 ## デフォルトでの設定
 デフォルトでは  umaskの値は044ですが、ファイルの属性はバラバラです。  
-File 044=rw--w--w-  
-File 022=rw-r--r-- 　　　　 Directory  
-File 002=rw-rw-r--
+044=-rw--w--w-,drwx-wx-wx  
+022=-rw-r--r--,drwxr-xr-x   gedit  
+002=-rw-rw-r--,drwxrwxr-x   nautilus
 
 
 
