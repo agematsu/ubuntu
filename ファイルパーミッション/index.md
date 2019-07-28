@@ -16,15 +16,12 @@ Writeパーミッションは、ファイルのコンテンツを変える権利
 ### Execute
 
 <!--
-## ファイルマネージャーでの取扱い 
-ファイルマネージャーでの取扱いはファイルかフォルダーかによって変わってくる。
-
+## ファイルマネージャーでの取扱い
 ### ファイルの場合
-ファイルにおいて、プログラムとして実行可能かはチェックポックスで一括して設定するので、以下では省略する。  
-Read-only=r-  
-Read and write=rw  
-None=--
-
+ファイルにおいて、プログラムとして実行可能かどうかはチェックポックスで一括して設定できる。
+Read-only=r--  
+Read and write=rw-  
+None=---
 ### フォルダーの場合
 List files only=r--  
 Access files=r-x  
@@ -34,9 +31,9 @@ None=---
 
 ## デフォルトでの設定
 デフォルトでは  umaskの値は044ですが、ファイルの属性はバラバラです。  
-044=-rw--w--w-,drwx-wx-wx  
-022=-rw-r--r--,drwxr-xr-x   gedit  
-002=-rw-rw-r--,drwxrwxr-x   nautilus
+044=-rw--w--w-, drwx-wx-wx  
+022=-rw-r--r--, drwxr-xr-x   gedit  
+002=-rw-rw-r--, drwxrwxr-x   nautilus, others
 
 
 
