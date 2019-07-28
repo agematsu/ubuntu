@@ -1,5 +1,5 @@
 # ファイルパーミッション
-ubuntuにおけるファイルパーミッションの仕組みが分かりにくいので、まとめてみる。
+Ubuntuにおけるファイルパーミッションの仕組みが分かりにくいので、まとめてみる。
 ## ファイルのオーナーシップ
 Linuxにおけるオーナーシップは以下の３タイブに分けられる。
 ### ユーザー
@@ -30,7 +30,9 @@ None=---
 -->
 
 ## デフォルトでの設定
-デフォルトでは  umaskの値は044ですが、ファイルの属性はバラバラです。  
+デフォルトでは、umaskの値は044になっています。しかし、GNOMEのソフトでファイルを作るとumaskが022か002のファイルが作成されます。これを解決するためには、acl(Access Controle List)というソフトを使う必要があります。
+
+参考  
 044=-rw--w--w-, drwx-wx-wx  
 022=-rw-r--r--, drwxr-xr-x   gedit  
 002=-rw-rw-r--, drwxrwxr-x   nautilus, others
@@ -39,5 +41,5 @@ None=---
 
 ## 参考文献
 [File Permissions in Linux/Unix with Example](https://www.guru99.com/file-permissions.html)  
-[Set the default permissions for newly created files](https://geek-university.com/linux/set-the-default-permissions-for-newly-created-files/)
-
+[Set the default permissions for newly created files](https://geek-university.com/linux/set-the-default-permissions-for-newly-created-files/)  
+[How to set `umask` for the entire gnome session?](https://unix.stackexchange.com/questions/254378/how-to-set-umask-for-the-entire-gnome-session)
