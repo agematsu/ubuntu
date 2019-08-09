@@ -8,6 +8,6 @@ GrubはMBRに存在する。
 
 
 Windows Bootloader
-Windows
+Windows  
 参考
 []()
